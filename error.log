@@ -1,0 +1,349 @@
+[2022-06-21T21:28:01.082] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"A001e"}',
+  detalles: undefined
+}
+[2022-06-21T21:28:06.250] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"A001"}',
+  detalles: undefined
+}
+[2022-07-06T12:37:56.531] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"2"}',
+  detalles: undefined
+}
+[2022-07-06T12:39:01.501] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"2"}',
+  detalles: undefined
+}
+[2022-07-06T12:39:16.949] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"2345"}',
+  detalles: undefined
+}
+[2022-07-06T12:42:11.123] [ERROR] default - CustomError {
+  estado: 500,
+  descripcion: 'Error adding mongo document to collection zapatillas',
+  detalles: MongoServerError: db already exists with different case already have: [test] trying to create [Test]
+      at C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\mongodb\lib\operations\insert.js:53:33
+      at C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\mongodb\lib\cmap\connection_pool.js:277:25
+      at C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\mongodb\lib\sdam\server.js:212:17
+      at handleOperationResult (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\mongodb\lib\sdam\server.js:335:20)
+      at Connection.onMessage (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\mongodb\lib\cmap\connection.js:222:9)
+      at MessageStream.<anonymous> (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\mongodb\lib\cmap\connection.js:63:60)
+      at MessageStream.emit (node:events:527:28)
+      at processIncomingData (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+      at MessageStream._write (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+      at writeOrBuffer (node:internal/streams/writable:389:12) {
+    index: 0,
+    code: 13297,
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2022-07-06T13:44:53.129] [ERROR] default - CustomError {
+  estado: 500,
+  descripcion: 'Error adding mongo document to collection zapatillas',
+  detalles: MongoServerError: db already exists with different case already have: [test] trying to create [Test]
+      at C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\mongodb\lib\operations\insert.js:53:33
+      at C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\mongodb\lib\cmap\connection_pool.js:277:25
+      at C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\mongodb\lib\sdam\server.js:212:17
+      at handleOperationResult (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\mongodb\lib\sdam\server.js:335:20)
+      at Connection.onMessage (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\mongodb\lib\cmap\connection.js:222:9)
+      at MessageStream.<anonymous> (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\mongodb\lib\cmap\connection.js:63:60)
+      at MessageStream.emit (node:events:527:28)
+      at processIncomingData (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+      at MessageStream._write (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+      at writeOrBuffer (node:internal/streams/writable:389:12) {
+    index: 0,
+    code: 13297,
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2022-07-06T13:58:09.355] [ERROR] default - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Topology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at stringify (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\express\lib\response.js:1150:12)
+    at ServerResponse.json (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\express\lib\response.js:271:14)
+    at agregarZapatilla (file:///C:/Users/u597370/Documents/Coderhouse/CursoBackEnd/desafios/clase33/src/controller/ZapatillasController.js:37:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-07-06T14:05:44.245] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62c5c07cd9cb0dc3963cf541"}',
+  detalles: undefined
+}
+[2022-07-06T14:05:58.491] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"2"}',
+  detalles: undefined
+}
+[2022-07-06T14:06:10.009] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62c5c07cd9cb0dc3963cf541"}',
+  detalles: undefined
+}
+[2022-07-06T14:06:29.490] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"\\"62c5c07cd9cb0dc3963cf541\\""}',
+  detalles: undefined
+}
+[2022-07-06T15:01:57.867] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"1"}',
+  detalles: undefined
+}
+[2022-07-06T15:03:16.110] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62c5ce3cd9cb0dc3963cf542"}',
+  detalles: undefined
+}
+[2022-07-06T17:41:50.389] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62c5ef2126d3b58bd1421862"}',
+  detalles: undefined
+}
+[2022-07-06T17:48:59.794] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62c5ef2126d3b58bd1421862"}',
+  detalles: undefined
+}
+[2022-07-07T10:31:30.062] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62c6daf78c42f58eb58f6955"}',
+  detalles: undefined
+}
+[2022-07-07T10:31:39.650] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"\\"62c6daf78c42f58eb58f6955\\""}',
+  detalles: undefined
+}
+[2022-07-07T10:31:44.350] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62c6daf78c42f58eb58f6955"}',
+  detalles: undefined
+}
+[2022-07-07T10:32:07.636] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62c6daf78c42f58eb58f6955"}',
+  detalles: undefined
+}
+[2022-07-07T13:15:10.494] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"\\"\\""}',
+  detalles: undefined
+}
+[2022-07-07T13:15:17.266] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"\\" \\""}',
+  detalles: undefined
+}
+[2022-07-07T13:17:38.229] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62c7070669bf7c05aca98244"}',
+  detalles: undefined
+}
+[2022-07-07T13:25:47.040] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"1234"}',
+  detalles: undefined
+}
+[2022-07-07T13:25:50.898] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"12345"}',
+  detalles: undefined
+}
+[2022-07-07T13:25:55.244] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"123456"}',
+  detalles: undefined
+}
+[2022-07-07T13:43:46.829] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"1"}',
+  detalles: undefined
+}
+[2022-07-07T15:32:59.513] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"2"}',
+  detalles: undefined
+}
+[2022-07-07T15:33:04.559] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"4"}',
+  detalles: undefined
+}
+[2022-07-07T18:28:56.508] [ERROR] default - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: se ha borrado la Zapatilla:
+    at new NodeError (node:internal/errors:372:5)
+    at ServerResponse.writeHead (node:_http_server:275:11)
+    at ServerResponse.writeHead (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:266:8)
+    at writetop (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\express-session\index.js:276:15)
+    at ServerResponse.end (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\express-session\index.js:356:16)
+    at ServerResponse.send (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\express\lib\response.js:278:15)
+    at borrarZapatilla (file:///C:/Users/u597370/Documents/Coderhouse/CursoBackEnd/desafios/clase33/src/controller/ZapatillasController.js:63:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ERR_HTTP_INVALID_STATUS_CODE'
+}
+[2022-07-07T18:32:01.894] [ERROR] default - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: { err: 'Fallo el registro del Usuario' }
+    at new NodeError (node:internal/errors:372:5)
+    at ServerResponse.writeHead (node:_http_server:275:11)
+    at ServerResponse.writeHead (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:266:8)
+    at writetop (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\express-session\index.js:276:15)
+    at ServerResponse.end (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\express-session\index.js:356:16)
+    at ServerResponse.send (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase33\node_modules\express\lib\response.js:278:15)
+    at borrarZapatilla (file:///C:/Users/u597370/Documents/Coderhouse/CursoBackEnd/desafios/clase33/src/controller/ZapatillasController.js:63:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ERR_HTTP_INVALID_STATUS_CODE'
+}
+[2022-07-11T18:11:47.520] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62cc918c9da670854cfc0dd2"}',
+  detalles: undefined
+}
+[2022-07-11T18:19:20.309] [ERROR] default - ReferenceError: CustomError is not defined
+    at CarritosGeneralDao.updatePushZapatillaAlCarrito (file:///C:/Users/u597370/Documents/Coderhouse/CursoBackEnd/desafios/clase33/src/model/daos/Mongo/CarritosDao.js:16:7)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async CarritosApi.addZapatillaAlCarrito (file:///C:/Users/u597370/Documents/Coderhouse/CursoBackEnd/desafios/clase33/src/api/CarritosApi.js:21:29)
+    at async agregarZapatillaAlCarrito (file:///C:/Users/u597370/Documents/Coderhouse/CursoBackEnd/desafios/clase33/src/controller/CarritosController.js:48:25)
+[2022-07-11T18:21:32.519] [ERROR] default - ReferenceError: CustomError is not defined
+    at CarritosGeneralDao.updatePushZapatillaAlCarrito (file:///C:/Users/u597370/Documents/Coderhouse/CursoBackEnd/desafios/clase33/src/model/daos/Mongo/CarritosDao.js:16:7)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async CarritosApi.addZapatillaAlCarrito (file:///C:/Users/u597370/Documents/Coderhouse/CursoBackEnd/desafios/clase33/src/api/CarritosApi.js:21:29)
+    at async agregarZapatillaAlCarrito (file:///C:/Users/u597370/Documents/Coderhouse/CursoBackEnd/desafios/clase33/src/controller/CarritosController.js:48:25)
+[2022-07-11T18:22:12.760] [ERROR] default - ReferenceError: CustomError is not defined
+    at CarritosGeneralDao.updatePushZapatillaAlCarrito (file:///C:/Users/u597370/Documents/Coderhouse/CursoBackEnd/desafios/clase33/src/model/daos/Mongo/CarritosDao.js:16:7)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async CarritosApi.addZapatillaAlCarrito (file:///C:/Users/u597370/Documents/Coderhouse/CursoBackEnd/desafios/clase33/src/api/CarritosApi.js:21:29)
+    at async agregarZapatillaAlCarrito (file:///C:/Users/u597370/Documents/Coderhouse/CursoBackEnd/desafios/clase33/src/controller/CarritosController.js:48:25)
+[2022-07-11T18:33:02.595] [ERROR] default - ReferenceError: CustomError is not defined
+    at CarritosGeneralDao.updatePushZapatillaAlCarrito (file:///C:/Users/u597370/Documents/Coderhouse/CursoBackEnd/desafios/clase33/src/model/daos/Mongo/CarritosDao.js:16:7)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async CarritosApi.addZapatillaAlCarrito (file:///C:/Users/u597370/Documents/Coderhouse/CursoBackEnd/desafios/clase33/src/api/CarritosApi.js:21:29)
+    at async agregarZapatillaAlCarrito (file:///C:/Users/u597370/Documents/Coderhouse/CursoBackEnd/desafios/clase33/src/controller/CarritosController.js:48:25)
+[2022-07-11T18:47:49.690] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62cc99c2d510fd630eba6f13"}',
+  detalles: undefined
+}
+[2022-07-11T18:48:08.616] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62cc99c2d510fd630eba6f13"}',
+  detalles: undefined
+}
+[2022-07-11T18:48:16.709] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62cc99c2d510fd630eba6f13"}',
+  detalles: undefined
+}
+[2022-07-11T18:48:46.359] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62cc995ad510fd630eba6f12"}',
+  detalles: undefined
+}
+[2022-07-11T18:50:00.629] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62cc918c9da670854cfc0dd2"}',
+  detalles: undefined
+}
+[2022-07-11T18:50:16.624] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":":62cc918c9da670854cfc0dd2"}',
+  detalles: undefined
+}
+[2022-07-11T18:50:26.920] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62cc918c9da670854cfc0dd2"}',
+  detalles: undefined
+}
+[2022-07-11T18:50:39.517] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":":62cc918c9da670854cfc0dd2"}',
+  detalles: undefined
+}
+[2022-07-11T18:50:52.095] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62cc918c9da670854cfc0dd2"}',
+  detalles: undefined
+}
+[2022-07-11T18:59:00.892] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62cc99c2d510fd630eba6f13"}',
+  detalles: undefined
+}
+[2022-07-11T18:59:22.357] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62cc995ad510fd630eba6f12"}',
+  detalles: undefined
+}
+[2022-07-12T10:15:58.708] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62cd6f8728628e881a2e7117"}',
+  detalles: undefined
+}
+[2022-07-12T10:16:17.525] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62cd7400a71bb1675644264a"}',
+  detalles: undefined
+}
+[2022-07-12T10:17:21.627] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62cd7400a71bb1675644264a"}',
+  detalles: undefined
+}
+[2022-07-12T10:17:47.734] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62cd7400a71bb1675644264a"}',
+  detalles: undefined
+}
+[2022-07-12T10:17:54.434] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62cd746ba71bb1675644264b"}',
+  detalles: undefined
+}
+[2022-07-12T10:19:42.027] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62cd74daa71bb1675644264c"}',
+  detalles: undefined
+}
+[2022-07-12T10:21:05.509] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62cd74daa71bb1675644264c"}',
+  detalles: undefined
+}
+[2022-07-12T10:21:33.913] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62cd7546a71bb1675644264d"}',
+  detalles: undefined
+}
+[2022-07-12T10:23:16.847] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62cd75a3a71bb1675644264e"}',
+  detalles: undefined
+}
+[2022-07-12T10:24:45.923] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"62cd75faa71bb1675644264f"}',
+  detalles: undefined
+}
+[2022-07-12T10:24:59.193] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":":62cd75faa71bb1675644264f"}',
+  detalles: undefined
+}
+[2022-07-12T10:25:07.070] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"id:62cd75faa71bb1675644264f"}',
+  detalles: undefined
+}
+[2022-07-12T10:25:28.235] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Document not found with that {"id":"_id:62cd75faa71bb1675644264f"}',
+  detalles: undefined
+}
